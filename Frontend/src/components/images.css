@@ -1,0 +1,33 @@
+#list-image{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+#image-content{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    padding: 5px;
+    max-height: 350px;
+    max-width: 400px;
+    text-align: center;
+}
+#image-content span{
+    background-color: white;
+    padding: 3px;
+    max-width: 295px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#image-content img{
+    object-fit: cover;
+    max-height: 250px;
+    max-width: 300px;
+}
+#noimage{
+    margin-top: 30%;
+    color: white;
+}
